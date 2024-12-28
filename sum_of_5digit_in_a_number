@@ -1,14 +1,12 @@
 #include<stdio.h>
 #include<math.h>
-void main()
+int main()
 {
     long int n,sum=0,remainder,x;
-    printf("enter the value of n");
     scanf("%ld",&n);
     x=floor(log10(n)+1);
     if(x>5)
     {
-      printf("input exceeds 5 digits");
     }
     else
     {
@@ -19,9 +17,8 @@ void main()
         n=n/10;
             
         }
-    printf("the sum is %d",sum);
-        
     }
-}
-        
+    printf("%d",sum);
+    return 0;
     
+ }
