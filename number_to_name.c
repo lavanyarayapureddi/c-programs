@@ -1,30 +1,30 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int n;
-    printf("enter the number");
     scanf("%d",&n);
     switch(n)
     {
-        case 1:printf("one\n");
+        case 1:printf("one");
         break;
-        case 2:printf("two\n");
+        case 2:printf("two");
         break;
-        case 3:printf("three\n");
+        case 3:printf("three");
         break;
-        case 4:printf("four\n");
+        case 4:printf("four");
         break;
-        case 5:printf("five\n");
+        case 5:printf("five");
         break;
-        case 6:printf("six\n");
+        case 6:printf("six");
         break;
-        case 7:printf("seven\n");
+        case 7:printf("seven");
         break;
-        case 8:printf("eight\n");
+        case 8:printf("eight");
         break;
-        case 9:printf("nine\n");
+        case 9:printf("nine");
         break;
-        default:printf("greater than");
+        default:printf("Greater than 9");
         break;
     }
+    return 0;
 }
